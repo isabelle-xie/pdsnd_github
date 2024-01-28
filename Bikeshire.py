@@ -101,7 +101,7 @@ def time_stats(df):
     print('The most common start hour is: ', popular_hour)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*45)
 
 
 def station_stats(df):
@@ -121,7 +121,7 @@ def station_stats(df):
     print('The most popular trip is: ', df['popular_trip'].mode()[0])
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*45)
 
 
 def trip_duration_stats(df):
