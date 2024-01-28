@@ -171,12 +171,12 @@ def user_stats(df):
     
 def raw_data(df):
     """Display raw data as requested"""
-    i=0
+    f=0
     while True:
         if_raw = input('Would you like to see the raw data? Yes or No?')
         if if_raw.lower() == 'yes':
-            print(df[i: i+5])
-            i += 5
+            print(df[f: f+5])
+            f += 5
         else:
             break
         
